@@ -1,0 +1,93 @@
+ .center-top{
+ 	margin: 0 auto 30px;
+ 	padding: 30px;
+ 	
+ }
+ .center-top span{
+	width: 50%;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+	float: left;
+	
+}
+.center-top  h2{
+	width: 50%;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+	float: right;
+}
+
+ input{
+	width: 298px;
+	height: 20px;
+	padding: 15px 5px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	border:1px solid #dedede;
+	margin-bottom: 30px;
+	
+}
+.pic{
+	position: relative;
+}
+.pic i{
+	width: 20px;
+	height: 20px;
+	background: url(../img/login_04.png) no-repeat 2px 3px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.pic em{
+	width: 20px;
+	height: 20px;
+	background: url(../img/login_04.png) no-repeat 2px -18px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+form p{
+	width: 100px;
+	height: 40px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 40px;
+}
+.ck{
+	width: 13px;
+	height: 13px;
+	position: relative;
+	top: 3px;
+}
+#btn{
+	width: 100%;
+	height: 50px;
+	background: #f19108;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-weight: 999;
+}
+.box{
+	width: 100%;
+	height: 20px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 5px 0;
+}
+.box a{
+	color: #999999;
+	font-size: 12px;
+}
+.box1{
+	width: 100%;
+	padding-top: 30px;
+	font-size: 12px;
+	color: #999999;
+}
+.box1 a{color: #f19108;}
