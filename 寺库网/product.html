@@ -818,7 +818,7 @@
 		</div>
 		
 		<div class="rightbox">
-			<div class="list">
+			<div class="list" id="lis">
 				<ul>
 					<li>
 				       <a href="">商品详情</a>
@@ -829,6 +829,22 @@
 					</li>
 				</ul>
 			</div>
+			<script type="text/javascript">
+				var h = 800;
+	function $(id){
+		return document.getElementById(id);
+	}
+	window.onscroll = function(){
+		var sTop = document.body.scrollTop || document.documentElement.scrollTop;
+		if( sTop > h ){
+			$("lis").style.position = "fixed";
+			$("lis").style.top = "0";
+		
+		}else{
+			$("lis").style.position = "";
+		}
+	}
+			</script>
 			<div class="product_detail">
 				<div class="detail_banner">
 					<img src="img/0c4f5065ce634273aec0bc6b59e38396.jpg"/>
