@@ -34,7 +34,7 @@
 .pic{
 	position: relative;
 }
-.pic i{
+.pic i a{
 	width: 20px;
 	height: 20px;
 	background: url(../img/login_04.png) no-repeat 2px 3px;
@@ -42,7 +42,7 @@
 	top: 20px;
 	right: 20px;
 }
-.pic em{
+.pic em a{
 	width: 20px;
 	height: 20px;
 	background: url(../img/login_04.png) no-repeat 2px -18px;
@@ -91,3 +91,13 @@ form p{
 	color: #999999;
 }
 .box1 a{color: #f19108;}
+.box p a em img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+.box p a i img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
